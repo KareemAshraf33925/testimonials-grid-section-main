@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Moderateviolet: hsl(263, 55%, 52%);
+    --Verydarkgrayishblue: hsl(217, 19%, 35%);
+    --Verydarkblackishblue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(0, 0%, 81%);
+    --Lightgrayishblue: hsl(210, 46%, 95%);
+}
+body{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    width: 100%;
+    overflow-x:hidden ;
+    height: 100vh;
+    background-color: var(--Lightgrayishblue);
+}
+.testimonials .container{
+    margin: 100px auto 100px;
+    
+}
+.testimonials .container .grid{
+    display: grid;
+   grid-template-columns: repeat(5,1fr);
+}
+.testimonials .container .grid .article-1{
+    background-color: var(--Moderateviolet);
+    margin: 100px 0 0 50px;
+    padding: 30px;
+    border-radius: 10px;
+    grid-column: 1/4;
+    height: 300px;
+}
+.testimonials .container .grid .article-1 .header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.testimonials .container .grid .article-1 .header img{
+    border-radius: 50%;
+}
+.testimonials .container .grid .article-1 .header div {
+    margin-left: 20px;
+}
+.testimonials .container .grid .article-1 .header div span{
+    display: block;
+}
+.testimonials .container .grid .article-1 .header div span:first-child{
+    color: var(--White);
+}
+.testimonials .container .grid .article-1 .header div span:nth-child(2){
+    color: var(--Verydarkgrayishblue);
+}
+.testimonials .container .grid .article-1 .p-1{
+    font-size: 20px;
+    color: var(--White);
+    margin: 20px 0;
+}
+.testimonials .container .grid .article-1 .p-2{
+    font-size: 13px;
+    color: var(--Verydarkgrayishblue);
+    margin: 20px 0;
+}
+.testimonials .container .grid .article-2{
+    background-color: var(--Verydarkgrayishblue);
+    margin: 100px 0 0 50px;
+    padding: 30px;
+    border-radius: 10px;
+   height: 300px;
+   grid-column:4/4 ;
+}
+.testimonials .container .grid .article-2 .header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.testimonials .container .grid .article-2 .header img{
+    border-radius: 50%;
+}
+.testimonials .container .grid .article-2 .header div {
+    margin-left: 20px;
+}
+.testimonials .container .grid .article-2 .header div span{
+    display: block;
+}
+.testimonials .container .grid .article-2 .header div span:first-child{
+    color: var(--White);
+}
+.testimonials .container .grid .article-2 .header div span:nth-child(2){
+    color: #c5c3c3;
+}
+.testimonials .container .grid .article-2 .p-1{
+    font-size: 20px;
+    color: var(--White);
+    margin: 20px 0;
+}
+.testimonials .container .grid .article-2 .p-2{
+    font-size: 13px;
+    color: var(--Verydarkgrayishblue);
+    margin: 0px 0 40px 0;
+    color: rgb(167, 170, 173);
+    width: 200px;
+}
+.testimonials .container .grid .article-3{
+    background-color: var(--White);
+    margin: 100px 0 0 50px;
+    padding: 30px;
+    border-radius: 10px;
+    grid-column: 5/5;
+    grid-row: 1/2;
+    width:250px;
+}
+.testimonials .container .grid .article-3 .header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.testimonials .container .grid .article-3 .header img{
+    border-radius: 50%;
+}
+.testimonials .container .grid .article-3 .header div {
+    margin-left: 20px;
+}
+.testimonials .container .grid .article-3 .header div span{
+    display: block;
+}
+.testimonials .container .grid .article-3 .header div span:first-child{
+    color: #000;
+}
+.testimonials .container .grid .article-3 .header div span:nth-child(2){
+    color:#c5c3c3;;
+}
+.testimonials .container .grid .article-3 .p-1{
+    font-size: 20px;
+    color: var(--White);
+    margin: 20px 0;
+}
+.testimonials .container .grid .article-3 .p-2{
+    font-size: 13px;
+    color: var(--Verydarkgrayishblue);
+    margin: 20px 0;
+}
+.testimonials .container .grid .article-4{
+    background-color: var(--White);
+    margin: 100px 0 0 50px;
+    padding: 30px;
+    border-radius: 10px;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    position: absolute;
+   top: 410px;
+   left: 0;
+   width: 240px;
+   height: 300px; 
+}
+.testimonials .container .grid .article-4 .header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.testimonials .container .grid .article-4 .header img{
+    border-radius: 50%;
+}
+.testimonials .container .grid .article-4 .header div {
+    margin:0 0 25px 20px;
+    position: relative;
+    bottom: 30px;
+}
+.testimonials .container .grid .article-4 .header div span{
+    display: block;
+}
+.testimonials .container .grid .article-4 .header div span:first-child{
+    color: var(--White);
+}
+.testimonials .container .grid .article-4 .header div span:nth-child(2){
+    color: var(--Verydarkgrayishblue);
+}
+.testimonials .container .grid .article-4 .p-1{
+    font-size: 20px;
+    color: hsl(0, 9.7%, 6.1%);
+    
+}
+.testimonials .container .grid .article-4 .p-2{
+    font-size: 13px;
+    color: var(--Verydarkgrayishblue);
+    margin: 10px 0 0 0;
+}
+.testimonials .container .grid .article-5{
+    background-color: var(--Verydarkblackishblue);
+    margin: 100px 0 0 50px;
+    padding: 30px;
+    border-radius: 10px;
+   grid-column: 2/4;
+   grid-row: 2/2;
+   position: absolute;
+   top: 410px;
+   left: 300px;
+   width: 700px; 
+}
+.testimonials .container .grid .article-5 .header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.testimonials .container .grid .article-5 .header img{
+    border-radius: 50%;
+}
+.testimonials .container .grid .article-5 .header div {
+    margin-left: 20px;
+}
+.testimonials .container .grid .article-5 .header div span{
+    display: block;
+}
+.testimonials .container .grid .article-5 .header div span:first-child{
+    color: var(--White);
+}
+.testimonials .container .grid .article-5 .header div span:nth-child(2){
+    color: var(--Verydarkgrayishblue);
+}
+.testimonials .container .grid .article-5 .p-1{
+    font-size: 20px;
+    color: var(--White);
+    margin: 20px 0;
+}
+.testimonials .container .grid .article-5 .p-2{
+    font-size: 13px;
+    color: var(--Verydarkgrayishblue);
+    margin: 20px 0;
+}
+@media(max-width:1024px){
+    .testimonials .container .grid .article-1 {
+        height: 360px;
+      }
+      .testimonials .container .grid .article-2 {
+        height: 359px;
+      }
+      .testimonials .container .grid .article-4 {
+        top: 470px;
+      }       
+      .testimonials .container .grid .article-5 {
+        top: 472px;
+        left: 261px;
+        width: 444px;
+        height: 305px;
+      } 
+      .testimonials .container .grid .article-3 {
+        height: 675px;
+      }
+}
+@media(max-width:768px){
+    .testimonials .container {
+        margin: 0px auto 50px;
+      }
+    .testimonials .container .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .testimonials .container .grid .article-1 {
+        height: 260px;
+        margin-right: 60px;
+      }
+      .testimonials .container .grid .article-2 {
+        height: 210px;
+        margin: 20px auto;
+        width: 663px;
+      }
+      .testimonials .container .grid .article-2 .p-2 {
+        width: 609px;
+      }
+      .testimonials .container .grid .article-3 {
+        height: 270px;
+        width: 663px;
+        margin: 20px auto;
+      }
+      .testimonials .container .grid .article-4 {
+        top: 895px;
+        left: 55px;
+        height: 163px;
+        width: 663px;
+        margin: 20px auto;
+      }
+      .testimonials .container .grid .article-5 {
+        top: 1077px;
+        left: 55px;
+        height: 240px;
+        width: 663px;
+        margin: 20px auto;
+      }
+}
+@media(max-width:480px){
+    .testimonials .container .grid .article-1 {
+        height: 364px;
+        margin-right: 60px;
+      }
+      .testimonials .container .grid .article-2 {
+        height: 240px;
+        margin: 20px auto;
+        width: 376px;
+      }
+      .testimonials .container .grid .article-2 .p-2 {
+        width: 318px;
+      }
+      .testimonials .container .grid .article-3 {
+        height:375px;
+        margin: 20px auto;
+        width: 376px;
+        
+      }
+      .testimonials .container .grid .article-4 {
+        top: 1128px;
+        left: 50px;
+        height: 240px;
+        margin: 20px auto;
+        width: 376px;
+      }
+      .testimonials .container .grid .article-5 {
+        top: 1385px;
+        left: 49px;
+        height: 330px;
+        width: 380px;
+        margin: 20px auto;
+      }
+
+}
+@media(max-width:320px){
+    .testimonials .container .grid .article-1 {
+        height: 444px;
+        margin-right: 51px;
+        width: 300px;
+      }
+      .testimonials .container .grid .article-2 {
+        height: 269px;
+        margin: 20px auto;
+        width: 300px;
+      }
+      .testimonials .container .grid .article-2 .p-2 {
+        width: 255px;
+      }
+      .testimonials .container .grid .article-3 {
+        height: 471px;
+        margin: 0px auto;
+        width: 300px;
+      }
+      .testimonials .container .grid .article-4 {
+        top: 1319px;
+        left: 9px;
+        height: 225px;
+        margin: 20px auto;
+        width: 300px;
+      }
+      .testimonials .container .grid .article-5 {
+        top: 1559px;
+        left: 13px;
+        height: 410px;
+        margin: 20px auto;
+        width: 300px;
+      }
+
+}
